@@ -10,16 +10,19 @@
 #Persistent
 #NoTrayIcon
 
-SetBatchLines -1 	;For Speed
+SetBatchLines -1 ;For Speed
+
+; Blocks almost all kind of input - Keyboard & Mouse
+BlockInput, On
 
 ;Gui Variables
-Width	:=	A_ScreenWidth + 10
-Height	:=	A_ScreenHeight + 10
+Width := A_ScreenWidth + 10
+Height   := A_ScreenHeight + 10
 
-;$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ Code Begins
-
+; Hide mouse from the action
 MouseMove, %Width%, %Height%
-BlockInput, On
+
+; And the taskbar too
 WinHide, ahk_class Shell_TrayWnd
 
 ;tpm Display Settings
@@ -82,65 +85,6 @@ Check:
 		WinSet, AlwaysOnTop, On, BSOD
 		BlockInput, On
 	}
-Return
-
-;Lock Keys
-*A::
-*B::
-*C::
-*D::
-*E::
-*F::
-*G::
-*H::
-*I::
-*J::
-*K::
-*L::
-*N::
-*O::
-*P::
-*R::
-*S::
-*T::
-*U::
-*V::
-*W::
-*X::
-*Y::
-*Z::
-
-;Mouse Buttons
-*LButton::
-*MButton::
-*RButton::
-
-*Esc::
-*Tab::
-
-*Alt::
-*LWin::
-*RWin::
-
-*Up::
-*Down::
-*Left::
-*Right::
-
-*Space::
-
-*F1::
-*F2::
-*F3::
-*F4::
-*F5::
-*F6::
-*F7::
-*F8::
-*F9::
-*F10::
-*F11::
-*F12::
 Return
 
 /*

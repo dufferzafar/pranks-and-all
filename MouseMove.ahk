@@ -10,21 +10,21 @@
 #Persistent
 #NoTrayIcon
 
-SetBatchLines -1 ;For Speed
-
-;$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ Code Begins
+SetBatchLines -1 ; For Speed
 
 CoordMode, Mouse, Screen
-SysGet, WorkArea, MonitorWorkArea, 1 ;Avoid the taskbar
 
+SysGet, WorkArea, MonitorWorkArea, 1 ; Avoid the taskbar
+
+; Hide all windows from the action
 WinMinimizeAll
 
-SetTimer, Mous, 1000
+; Change this to have fun as you want it...
+SetTimer, MoveMouse, 1000
 
 Return	 ;End of Auto Execute Section
-;_____________________________________________
 
-Mous:
+MoveMouse:
 	Random, Xcord , 0, %WorkAreaRight%
 	Random, Ycord , 0, %WorkAreaBottom%
 	MouseMove, Xcord, Ycord, 0
