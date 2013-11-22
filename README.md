@@ -4,7 +4,7 @@ Silly pranks written in AHK.
 
 Press **M while holding Q** to exit from any of the scripts, Of course you can disable this when running on your friends computer (naughty you!)
 
-The effects of all of these are temporary. As soon as you exit the script, everything will be back to normal. I promise. :sunglasses:
+The effects of all of these are temporary. As soon as you exit the script, everything will be back to normal. I promise ;)
 
 Warning: I can not be held responsible for any damage that could happen to your cat from the usage of these scripts... So, Excercise Caution.
 
@@ -34,13 +34,13 @@ For added fun, the reversal won't take place everytime. There's a probability pa
 
 Show a nice little BSOD and watch people freak out.
 
-![Screenshot](/Screenshots/bosd.jpg)
+![Screenshot](/Screens/bsod.jpg)
 
 ## <a name="chameleon"></a>The chameleon lock
 
 A Transparent AlwaysOnTop window that changes colors. Shiny.
 
-![Screenshot](/Screenshots/chameleon.jpg)
+![Screenshot](/Screens/chameleon.jpg)
 
 ## <a name="hang"></a>Looks like a hang...
 
@@ -48,5 +48,5 @@ Nothing happens, except that the screen goes grayscale and you can't do anything
 
 Well, nothing much.
 
-![Screenshot](/Screenshots/hang.jpg)
+![Screenshot](/Screens/hang.jpg)
 
