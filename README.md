@@ -50,3 +50,7 @@ Well, nothing much.
 
 ![Screenshot](/Screens/hang.jpg)
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/dufferzafar/pranks-and-all/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
